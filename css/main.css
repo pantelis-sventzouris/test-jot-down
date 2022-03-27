@@ -1,0 +1,73 @@
+body{
+    font-family: 'Arial';
+    background: linear-gradient(to right, #e3a65b, #ffe3c2);
+    width: 98%;
+    margin: auto;
+}
+ 
+textarea{
+    border-radius: .1rem;
+    resize: none;
+    background-color: #ebaf66;
+    font-family: 'Arial';
+    border: 1px solid #e7c79f;
+    width: 60%;
+    color: #333;
+}
+ 
+li{
+    border-bottom: .2rem solid #ffe3c2;
+    cursor: pointer;
+       
+}
+ 
+span{
+    transition: font-weight .5s ease-in-out, font-size .5s ease-in-out;
+    -o-transition: font-weight .5s ease-in-out, font-size .5s ease-in-out;
+    -webkit-transition: font-weight .5s ease-in-out, font-size .5s ease-in-out;
+    -moz-transition: font-weight .5s ease-in-out, font-size .5s ease-in-out;
+}
+
+span:hover{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+li > img{
+    width: 1rem;
+    height: 1rem;
+    padding-left: .5rem;
+    cursor: pointer;
+}
+ 
+img{
+    transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;  
+}
+ 
+img:hover{
+    transform: scale(1.2);
+}
+ 
+em{
+    font-family: 'Arial';
+    font-size: .6rem;
+    padding-left: 1rem;
+}
+ 
+.text-strikethrough{
+    text-decoration: line-through;
+}
+ 
+#notesPnl{
+    width: 98%;
+}
+ 
+#rmvAllImg{
+    height: 1.5rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+ 
